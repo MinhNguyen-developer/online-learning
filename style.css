@@ -88,10 +88,6 @@ body {
   border-bottom-left-radius: 20px;
 }
 
-.navigation ul li.active {
-  background: #fff;
-}
-
 .navigation ul li a {
   position: relative;
   display: block;
@@ -101,8 +97,10 @@ body {
   color: #fff;
 }
 
-.navigation ul li.active a {
+.navigation ul li:hover a {
   color: #333;
+  background-color: #fff;
+  transition: 0.3s;
 }
 
 .navigation ul li .icon.close-side-nav {
