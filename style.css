@@ -104,13 +104,15 @@ body {
 }
 
 .navigation ul li .icon.close-side-nav {
-  font-size: 1.5em;
+  font-size: 3em;
   margin-bottom: 10px;
   margin-left: 10px;
+  transition: all 0.3s ease-in-out 0s;
 }
 
 .navigation ul li .icon.close-side-nav:hover {
   cursor: pointer;
+  color: #fff;
 }
 
 .navigation ul li a .icon {
