@@ -1,0 +1,88 @@
+:root {
+  --txt-color: #f7e6ca;
+  --item-bgrn-color: #64c4c3;
+  --main-header-color: #f8d49a;
+  --backup-color: #5193b3;
+}
+
+.quiz-video-list {
+  display: flex;
+  justify-content: space-between;
+
+  background: url("/images/education-wallpaper-3.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+}
+
+.quiz-list {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  margin: 1rem;
+}
+
+.quiz-body {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.quiz-body .col-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.quiz-body .col-6 p {
+  margin: 1rem 0;
+  background: var(--backup-color);
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+.quiz-body .col-6 p:hover {
+  cursor: pointer;
+  color: antiquewhite;
+  background-color: darkgreen;
+  transition: all 0.5s linear;
+}
+
+.quiz-video-list .quiz-list .quiz-item {
+  background-color: rgb(240, 170, 123);
+  margin: 2rem 0;
+}
+
+.quiz-item .quiz-footer {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0.5rem;
+}
+
+.quiz-item .quiz-footer button {
+  background: var(--backup-color);
+  color: #fff;
+  width: 70px;
+  height: 50px;
+}
+
+.quiz-item .quiz-footer button:hover {
+  background-color: slateblue;
+  width: 80px;
+
+  transition: 1s;
+}
+.video-list {
+  display: flex;
+  flex-direction: column;
+
+  margin: 1rem;
+  /* justify-content: center; */
+}
+
+.video-list .video-item {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+}

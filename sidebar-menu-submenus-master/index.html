@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="css/pogo-slider.min.css" />
+    <link rel="stylesheet" href="css/quiz.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/quiz-video-items.css" />
+    <title>Sidebar sub menus</title>
+  </head>
+  <body id="body-pd">
+    <div class="l-navbar" id="navbar">
+      <nav class="nav">
+        <div>
+          <div class="nav__brand">
+            <ion-icon
+              name="menu-outline"
+              class="nav__toggle"
+              id="nav-toggle"
+            ></ion-icon>
+            <a href="#" class="nav__logo">MCI</a>
+          </div>
+          <div class="nav__list">
+            <a href="#" class="nav__link active">
+              <ion-icon name="home-outline" class="nav__icon"></ion-icon>
+              <span class="nav__name">Home</span>
+            </a>
+            <a href="#" class="nav__link">
+              <ion-icon name="chatbubbles-outline" class="nav__icon"></ion-icon>
+              <span class="nav__name">Messenger</span>
+            </a>
+
+            <div class="nav__link collapse">
+              <ion-icon name="book-outline" class="nav__icon"></ion-icon>
+              <span class="nav__name">Lessons</span>
+
+              <ion-icon
+                name="chevron-down-outline"
+                class="collapse__link"
+              ></ion-icon>
+
+              <ul class="collapse__menu">
+                <a href="#" class="collapse__sublink">LS1</a>
+                <a href="#" class="collapse__sublink">LS2</a>
+                <a href="#" class="collapse__sublink">LS3</a>
+              </ul>
+            </div>
+
+            <a href="#" class="nav__link">
+              <ion-icon name="pie-chart-outline" class="nav__icon"></ion-icon>
+              <span class="nav__name">Analytics</span>
+            </a>
+            <div class="nav__link collapse">
+              <ion-icon name="videocam-outline" class="nav__icon"></ion-icon>
+              <span class="nav__name">Team</span>
+
+              <ion-icon
+                name="chevron-down-outline"
+                class="collapse__link"
+              ></ion-icon>
+
+              <ul class="collapse__menu">
+                <a href="#" class="collapse__sublink">Data</a>
+                <a href="#" class="collapse__sublink">Group</a>
+                <a href="#" class="collapse__sublink">Members</a>
+              </ul>
+            </div>
+            <!-- <a href="#" class="nav__link">
+              <ion-icon name="settings-outline" class="nav__icon"></ion-icon>
+              <span class="nav__name">Settings</span>
+            </a> -->
+          </div>
+        </div>
+
+        <a href="#" class="nav__link">
+          <ion-icon name="log-out-outline" class="nav__icon"></ion-icon>
+          <span class="nav__name">Log Out</span>
+        </a>
+      </nav>
+    </div>
+    <div class="quiz-video-list">
+      <div class="quiz-list">
+        <h1>Quiz</h1>
+        <div class="quiz-item">
+          <div class="quiz-header">
+            <h3>Quiz Question</h3>
+            <p><strong>Question article</strong></p>
+          </div>
+          <div class="quiz-body">
+            <div class="col-6">
+              <p>Answer 1</p>
+              <p>Answer 2</p>
+            </div>
+
+            <div class="col-6">
+              <p>Answer 3</p>
+              <p>Answer 4</p>
+            </div>
+          </div>
+          <br />
+          <div class="quiz-footer">
+            <button type="submit">Submit answer</button>
+          </div>
+        </div>
+
+        <div class="quiz-item">
+          <div class="quiz-header">
+            <h3>Quiz Question</h3>
+            <p><strong>Question article</strong></p>
+          </div>
+          <div class="quiz-body">
+            <div class="col-6">
+              <p>Answer 1</p>
+              <p>Answer 2</p>
+            </div>
+
+            <div class="col-6">
+              <p>Answer 3</p>
+              <p>Answer 4</p>
+            </div>
+          </div>
+          <br />
+          <div class="quiz-footer">
+            <button type="submit">Submit answer</button>
+          </div>
+        </div>
+
+        <div class="quiz-item">
+          <div class="quiz-header">
+            <h3>Quiz Question</h3>
+            <p><strong>Question article</strong></p>
+          </div>
+          <div class="quiz-body">
+            <div class="col-6">
+              <p>Answer 1</p>
+              <p>Answer 2</p>
+            </div>
+
+            <div class="col-6">
+              <p>Answer 3</p>
+              <p>Answer 4</p>
+            </div>
+          </div>
+          <br />
+          <div class="quiz-footer">
+            <button type="submit">Submit answer</button>
+          </div>
+        </div>
+
+        <div class="quiz-item">
+          <div class="quiz-header">
+            <h3>Quiz Question</h3>
+            <p><strong>Question article</strong></p>
+          </div>
+          <div class="quiz-body">
+            <div class="col-6">
+              <p>Answer 1</p>
+              <p>Answer 2</p>
+            </div>
+
+            <div class="col-6">
+              <p>Answer 3</p>
+              <p>Answer 4</p>
+            </div>
+          </div>
+          <br />
+          <div class="quiz-footer">
+            <button type="submit">Submit answer</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-list">
+        <h3>Video Lesson</h3>
+        <div class="video-item">
+          <iframe
+            width="300"
+            height="200"
+            src="https://www.youtube.com/embed/cXAAWmOPnEM"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <span>Video Article</span>
+        </div>
+        <div class="video-item">
+          <iframe
+            width="300"
+            height="200"
+            src="https://www.youtube.com/embed/D1eY4VjMLS4"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <span>Video Article</span>
+        </div>
+        <div class="video-item">
+          <span></span>
+        </div>
+        <div class="video-item">
+          <iframe
+            width="300"
+            height="200"
+            src="https://www.youtube.com/embed/neDn6VpDPPw"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <span>Video Article</span>
+        </div>
+        s
+      </div>
+    </div>
+
+    <!-- End Footer -->
+
+    <a href="#" id="scroll-to-top" class="hvr-radial-out"
+      ><i class="fa fa-angle-up"></i
+    ></a>
+    <!-- ===== IONICONS ===== -->
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+
+    <!-- ===== MAIN JS ===== -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.pogo-slider.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/images-loded.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
